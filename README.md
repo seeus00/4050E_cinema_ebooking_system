@@ -1,5 +1,4 @@
-# 4050E_cinema_ebooking_system TEAM 4
-# Cinema E-Booking System
+# CSCO 4050E Cinema E-Booking System; TEAM 4
 
 This repository contains the frontend and backend code for the Cinema E-Booking System. 
 
