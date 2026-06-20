@@ -1,41 +1,41 @@
-# Cinema E-Booking System - Deliverable #2 (Sprint 1)
+# Cinema E-Booking System - Deliverable #2 
 
-This is the Sprint 1 implementation of the Cinema E-Booking System (CES) containing only the features required for this sprint.
+This is the Sprint 1 implementation
 
 ## Features Implemented
 
-### ✅ Home Page
+### Home Page
 - Movies dynamically retrieved from the database
 - Movies categorized as "Currently Playing" or "Coming Soon"
 - Real-time display of movie data
 
-### ✅ Movie Search
+### Movie Search
 - Search movies by title
 - Displays matching movies or "no results found" message
 
-### ✅ Movie Filter
+### Movie Filter
 - Filter movies by genre
 - Filter options integrated with the database
 - Displays filtered results or "no results found" message
 
-### ✅ Movie Details Page
+### Movie Details Page
 - Displays comprehensive movie details:
   - Title, rating (MPAA), description (synopsis)
   - Poster image or embedded trailer
   - Director, producer, cast, release date
   - Reviews/user feedback
 
-### ✅ Trailers
+### Trailers
 - Embedded YouTube trailers
 - Playable directly on the website
 - Automatic conversion of trailer URLs to embed format
 
-### ✅ Showtimes Display
+### Showtimes Display
 - Hardcoded showtimes (2:00 PM, 5:00 PM, 8:00 PM) per movie
 - Links to booking page when showtime is selected
 - Theater hall information displayed
 
-### ✅ Booking Page (UI Prototype Only)
+### Booking Page (UI Prototype Only)
 - Displays selected movie and showtime
 - Ticket quantity selector for each category:
   - Adult, Child, Senior with dynamic pricing
@@ -209,44 +209,3 @@ The application requires at least 10 seeded movies with multiple genres and both
 - Vite
 
 ---
-
-## Testing Checklist for Demo
-
-- [ ] Home page loads with currently playing and coming soon movies
-- [ ] Search functionality finds movies by title
-- [ ] Filter by genre works correctly
-- [ ] Movie detail page displays all information
-- [ ] Movie trailers embed and play on the detail page
-- [ ] Movie showtimes are displayed as clickable links
-- [ ] Clicking showtime navigates to booking page
-- [ ] Booking page displays movie, showtime, and seat layout
-- [ ] Seat selection works (click to select/deselect)
-- [ ] Ticket category selector increases/decreases quantities
-- [ ] Order summary updates with ticket selection
-- [ ] UI is responsive and professional-looking
-
----
-
-## Notes
-
-- **No user authentication required for Sprint 1** - favorites and authentication features are not implemented
-- **No payment processing** - checkout is UI only
-- **No seat reservations** - seats are not locked or reserved
-- **Hardcoded showtimes** - theater data is static for now
-- **Static pricing** - ticket prices are fetched from API but can be hardcoded
-
----
-
-## Future Sprints
-
-- Sprint 2: User authentication, payment integration, seat reservation
-- Sprint 3: Order management, promotional codes, analytics
-- Sprint 4: Admin dashboard, reporting, additional features
-
----
-
-## Support
-
-For issues or questions, contact the development team.
-
-**Sprint 1 - Deliverable Date:** [Your Date]
