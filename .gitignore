@@ -1,0 +1,104 @@
+# ====================================================================
+# PYTHON EXCLUSIONS
+# ====================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+# (Exclude local build artifacts, but keep source)
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual Environments
+# (Crucial: never commit local venvs to GitHub)
+.venv/
+venv/
+ENV/
+env/
+ENV/
+*.venv
+
+# Poetry and Pipenv environment folders
+.poetry/
+.pipenv/
+
+# ====================================================================
+# REACT / NODE.JS EXCLUSIONS
+# ====================================================================
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production build outputs
+# (Adjust 'dist/' if using Vite, or 'build/' if using Create React App)
+dist/
+build/
+out/
+
+# Next.js build output (if applicable)
+.next/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / Framework diagnostics
+.eslintcache
+.stylelintcache
+
+# TypeScript declaration cache
+*.tsbuildinfo
+
+# ====================================================================
+# SECURITY & ENVIRONMENT VARIABLES
+# ====================================================================
+# Block sensitive keys and local configs for both React and Python
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.secrets
+
+# ====================================================================
+# IDE / SYSTEM EXCLUSIONS
+# ====================================================================
+# macOS system files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains / PyCharm / WebStorm
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
